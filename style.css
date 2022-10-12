@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aqua;
+    line-height: 1.4;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    max-width: 1365px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Calibri;
+    font-weight: 500;    
+}
+.menu a:hover{
+    letter-spacing: 4px;
+    opacity: 1;
+    color: rgb(0, 0, 190);
+    font-weight: 900;
+}
+.navbar_nav{
+    width: 100%;
+    height: 90px; 
+    background-color: white;
+}
+.logo{
+    position: absolute;
+    color: orange;
+    font-size: 60px;
+    padding-top: 8px;
+    padding-left: 80px;
+}
+.menu{
+    font-size: 20px;
+    word-spacing: 30px;
+    padding-top: 28px;
+    padding-right: 100px;
+    text-align: right;
+}
+.menu .fa-bars{
+    display: none;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 130px;
+}
+.input_search{
+    margin-left: -38px;
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    padding-left: 40px;
+    font-size: 20px;
+}
+.navbar_search{
+    text-align: center;
+}
+.navbar_search .fa-magnifying-glass{
+    margin-left: -70px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.navbar_search span{
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;  
+}
+.header_btn{
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(187, 187, 187);
+    margin-top: 25px;
+    border: none;
+}
+.navbar_bottom{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+h2{
+    color: white;
+    padding-top: 8px;
+    padding-left: 50px;
+    font-weight: 100;
+    font-size: 25px;
+}
+.bottom_right{
+    margin-left: 750px;
+    margin-top: -27px;
+}
+.bottom_right a{
+    color: white;
+    font-size: 18px;
+    padding-right: 20px;
+    opacity: 1;
+}
+.bottom_right a:hover{
+    color: black;
+    opacity: 0.7;
+}
+       
+             /* header_end */
+             /* START_ABOUT */
+
+section{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 92vh;
+}             
+.galery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.rem;
+}
+.galery img{
+    margin-left: 40px;
+    padding-top: 50px;
+    height: 200px;
+    width: 250px;
+    padding-bottom: 220px;
+}
+.about_us{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(60, 60, 255);
+    text-align: center;
+}
+.btn_us{
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: 100;
+    transition: all 1s;
+    background-color: rgb(60, 60, 255);
+
+}
+.btn_us:hover{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+.about_us p{
+    font-size: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+}
+.about_us .fa-palette{
+    font-size: 100px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    padding-top: 38px;
+    border: 5px solid white;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.about_us .fa-palette:hover{
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+} 
+.about_us .fa-map-location-dot{
+    font-size: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    padding-top: 38px;
+    border: 5px solid white;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.about_us .fa-map-location-dot:hover{
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+}
+.about_us .fa-desktop{
+    font-size: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    padding-top: 38px;
+    border: 5px solid white;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.about_us .fa-desktop:hover{
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+}
+.about_us .p1{
+    font-size: 25px;
+    margin-left: -665px;
+    color: whitesmoke;
+}
+.about_us .p2{
+    font-size: 25px;
+    margin-top: -55px;
+    letter-spacing: 1.3px;
+    color: whitesmoke;
+}
+.about_us .p3{
+    font-size: 25px;
+    margin-top: -55px;
+    margin-left: 655px;
+    letter-spacing: 1.3px;
+    color: whitesmoke;
+}
+   
+           /* <!-- section end -->
+           <!-- START  --> */
+
+.team{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 94vh;
+}           
+.team_tittle{
+    text-align: center;
+}
+.btn_team{
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: 100;
+    transition: all 1s;
+    background-color: whitesmoke;
+}
+.btn_team:hover{
+    background-color: black;
+    color: white;
+}
+.team_tittle p{
+    font-size: 18px;
+    padding: 50px;
+    font-weight: 100;
+}
+.team_bottom .img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 200px;
+}
+.team_bottom .img1:hover{
+    border: 10px solid black;
+}
+.team_bottom .img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 450px;
+    margin-top: -200px;
+}
+.team_bottom .img2:hover{
+    border: 10px solid black;
+}
+.team_bottom .img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+.team_bottom .img3:hover{
+    border: 10px solid black;
+}
+.team_bottom .img4{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 950px;
+    margin-top: -200px;
+}
+.team_bottom .img4:hover{
+    border: 10px solid black;
+}
+.team_bottom p{
+    font-size: 20px;
+    word-spacing: 195px;
+    font-weight: 900;
+}
+   
+        /* main end */
+        /* START CONTACT */
+        
+.contact_us{
+    width: 100%;
+    height: 75vh;
+    background-color:  rgb(60, 60, 255);
+}              
+.contact_btn{
+    margin-left: 600px;
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: 100;
+    transition: all 1s;
+    background-color: rgb(60, 60, 255);
+}  
+.contact_btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+.contact_us .h3-1{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.contact_us .h3-2{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 320px;
+}
+.contact_us .h3-3{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 460px;
+}
+.contact_input{
+    margin-top: 30px;
+}
+.in_1{
+    margin-left: 600px;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    padding-top: -10px;
+    padding-left: 20px;
+}
+.in_2{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.in_3{
+    width: 530px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 600px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.send_btn{
+    position: absolute;
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 800px;
+    color: black;
+    transition: all 0.5s;
+}
+.send_btn:hover{
+    background-color: rgb(60, 60, 255); 
+    color: white;
+    font-weight: 900;
+}
+   
+         /* contact end */
+         /* START FOOTER */
+
+.web_footer{
+    width: 100%;
+    height: 50vh;
+    background-color:  black;
+}         
+.social_media{
+    text-align: center;
+}
+.social_media .fa-brands{
+    font-size: 30px;
+    margin-left: 100px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 0.6rem 0.6rem ;
+    transition: all 1s;
+    margin-top: 80px;
+}
+.social_media .fa-brands:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid wheat;
+}
+.copyright{
+    margin-top: 50px;
+}
+.social_media a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Calibri;
+    color: white;
+    opacity: 0.7; 
+}
+.social_media a:hover{
+    letter-spacing: 1.8px;
+    word-spacing: 1px;
+    color: blue;
+    opacity: 1; 
+}
+
+     /* web site end */
+     /* start media screen */
+
+
+@media screen and (max-width:800px){
+    .menu a{
+        display: none;
+    }
+    .menu .fa-bars{
+        display: block;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .input_search{
+        width: 400px;
+    }
+    h2{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .bottom_right{
+        display: none;
+    }
+    .g2{
+        display: none;
+    }
+    .g3{
+        display: none;
+    }
+    .g4{
+        display: none;
+    }
+    .galery img{
+        width: 500px;     
+        height: 200px;
+        margin-bottom: 10px;           
+    }
+    .about_us p{
+        font-size: 10px;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .about_us .fa-solid{
+        font-size: 20px;
+        margin-top: 50px;
+        color: white;
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        padding-top: 12px;
+        border: 5px solid white;
+        border-radius: 100%;
+    }
+    .about_us .p1{
+        font-size: 20px;
+        margin-left: -380px;
+        color: whitesmoke;
+    }
+    .about_us .p2{
+        font-size: 20px;
+        margin-top: -55px;
+        letter-spacing: 1.3px;
+        color: whitesmoke;
+    }
+    .about_us .p3{
+        font-size: 20px;
+        margin-top: -55px;
+        margin-left: 420px;
+        letter-spacing: 1.3px;
+        color: whitesmoke;
+    }
+    .about_us{
+    height: 70vh;
+    }        
+    .team_tittle{
+        margin-top: -165px;
+    }   
+    .team_tittle p{
+        padding-top: 10px;
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .team_bottom .img1{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 50px;
+    }
+    .team_bottom .img2{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 180px;
+        margin-top: -100px;
+    }
+    .team_bottom .img3{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 310px;
+        margin-top: -100px;
+    }
+    .team_bottom .img4{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 430px;
+        margin-top: -100px;
+    }
+    .team_bottom p{
+        font-size: 10px;
+        word-spacing: 95px;
+        font-weight: 900;
+        margin-left: 20px;
+    }
+    .team{
+        width: 100%;
+        height: 75vh;
+    } 
+           
+.contact_us{
+    width: 100%;
+    height: 75vh;
+    background-color:  rgb(60, 60, 255);
+}              
+.contact_btn{
+    margin-left: 200px;
+    width: 150px;
+}  
+.contact_btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+.contact_us .h3-1{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.contact_us .h3-2{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 220px;
+}
+.contact_us .h3-3{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 350px;
+}
+.contact_input{
+    margin-top: 30px;
+} 
+.in_1{
+    margin-left: 100px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    padding-top: -100px;
+    padding-left: 10px;
+}
+.in_2{
+    position: absolute;
+    margin-left: 30px;
+    width: 160px;
+    height: 40px;
+    font-size:15px;
+    padding-left: 10px;
+}
+.in_3{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.copyright a{
+    font-size: 25px;
+}
+ .send_btn{
+    position: absolute;
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 200px;
+ }
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .menu a{
+        display: none;
+    }
+    .menu .fa-bars{
+        display: block;
+    }
+    h1{
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .input_search{
+        width: 330px;
+    }
+    h2{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .bottom_right{
+        display: none;
+    }
+    .g2{
+        display: none;
+    }
+    .g3{
+        display: none;
+    }
+    .g4{
+        display: none;
+    }
+    .galery img{
+        width: 400px;     
+        height: 180px;
+        margin-bottom: 10px;           
+    }
+    .about_us p{
+        font-size: 12px;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .about_us .fa-solid{
+        margin-left: 80px;
+        font-size: 25px;
+        margin-top: 50px;
+        color: white;
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        border: 5px solid white;
+        border-radius: 100%;
+    }
+    .about_us .p1{
+        font-size: 18px;
+        margin-left: -230px;
+        color: whitesmoke;
+    }
+    .about_us .p2{
+        font-size: 18px;
+        margin-top: -45px;
+        margin-left: 70px;
+        letter-spacing: 1.3px;
+        color: whitesmoke;
+    }
+    .about_us .p3{
+        font-size: 18px;
+        margin-top: -45px;
+        margin-left: 360px;
+        letter-spacing: 1.3px;
+        color: whitesmoke;
+    }
+    .about_us{
+    height: 70vh;
+    }        
+    .team_tittle{
+        margin-top: -165px;
+    }   
+    .team_tittle p{
+        padding-top: 10px;
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .team_bottom .img1{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 20px;
+    }
+    .team_bottom .img2{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 135px;
+        margin-top: -100px;
+    }
+    .team_bottom .img3{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 250px;
+        margin-top: -100px;
+    }
+    .team_bottom .img4{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 370px;
+        margin-top: -100px;
+    }
+    .team_bottom p{
+        font-size: 10px;
+        word-spacing: 95px;
+        font-weight: 900;
+        margin-left: 20px;
+    }
+    .team{
+        width: 100%;
+        height: 75vh;
+    } 
+           
+.contact_us{
+    width: 100%;
+    height: 75vh;
+    background-color:  rgb(60, 60, 255);
+}              
+.contact_btn{
+    margin-left: 200px;
+    width: 150px;
+}  
+.contact_btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+.contact_us .h3-1{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.contact_us .h3-2{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 190px;
+}
+.contact_us .h3-3{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 330px;
+}
+.contact_input{
+    margin-top: 30px;
+} 
+.in_1{
+    margin-left: 80px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    padding-top: -100px;
+    padding-left: 10px;
+}
+.in_2{
+    position: absolute;
+    margin-left: 30px;
+    width: 160px;
+    height: 40px;
+    font-size:15px;
+    padding-left: 10px;
+}
+.in_3{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.copyright a{
+    font-size: 20px;
+}
+ .send_btn{
+    position: absolute;
+    margin-top: 30px;
+    width: 120px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 180px;
+ }
+}
